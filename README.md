@@ -1,6 +1,5 @@
-# Medical RAG System - README
-
-## Overview
+![Cover Image](image.png)
+# Medical RAG System
 
 This Medical RAG (Retrieval-Augmented Generation) System is a Streamlit application that leverages Natural Language Processing techniques to answer questions about medical diagnostic procedures. The system retrieves relevant documents from a medical corpus and uses a language model to generate detailed answers based on the retrieved content.
 

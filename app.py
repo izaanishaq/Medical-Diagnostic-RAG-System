@@ -266,6 +266,8 @@ def main():
         st.session_state.data_loaded = False
         st.session_state.model_name = 'google/flan-t5-base'
     
+    st.sidebar.image("image.png", use_container_width=True)
+
     # Sidebar for configuration
     st.sidebar.header("Configuration")
     
