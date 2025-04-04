@@ -346,7 +346,7 @@ def main():
     
     # Main content area
     if not st.session_state.get('data_loaded', False) or not st.session_state.get('model_loaded', False):
-        st.info("Please load both data and model from the sidebar before asking questions.")
+        st.info("Please load model from the sidebar before asking questions.")
     else:
         # User input for question
         user_query = st.text_area("Enter your medical question:", height=100)
