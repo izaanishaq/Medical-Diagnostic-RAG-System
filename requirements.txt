@@ -1,0 +1,25 @@
+# Core dependencies
+streamlit==1.30.0
+torch>=2.0.0
+transformers>=4.30.0
+nltk==3.8.1
+rank-bm25==0.2.2
+
+# Data handling
+pandas==2.0.3
+numpy==1.24.3
+jsonschema==4.19.0
+
+# Text processing
+regex==2023.6.3
+sentencepiece==0.1.99
+
+# Optional but recommended for performance
+protobuf==3.20.3
+accelerate==0.21.0
+
+# Environment management
+python-dotenv==1.0.0
+
+# For Jupyter notebook compatibility (if needed)
+ipython==8.14.0
